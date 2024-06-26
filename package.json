@@ -1,0 +1,44 @@
+{
+  "name": "lendsqr",
+  "version": "1.0.0",
+  "description": "Test for backend engineering role",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "test": "mocha tests/**/*.ts",
+    "start": "node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rashnotech/lendsqr.git"
+  },
+  "keywords": [
+    "Lendsqr",
+    "api"
+  ],
+  "author": "Rashnotech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rashnotech/lendsqr/issues"
+  },
+  "homepage": "https://github.com/Rashnotech/lendsqr#readme",
+  "dependencies": {
+    "chai-http": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "knex": "^3.1.0",
+    "mocha": "^10.5.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "sha1": "^1.1.1",
+    "sinon": "^18.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  }
+}
